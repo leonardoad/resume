@@ -1,0 +1,32 @@
+[
+  {
+    "industry": "Open Source / Dev Tools",
+    "details": "Open-source contribution for improved task scheduling in PHP environments.",
+    "link": "https://github.com/leonardoad/php-crontab-manager",
+    "role": ["Contributor"],
+    "status": "open-source",
+    "technologies": ["PHP", "crontab", "CLI", "scheduler"]
+  },
+  {
+    "industry": "Web Game",
+    "details": "Power-Blocks: Engaging web game developed using Vue.js.",
+    "link": "https://github.com/leonardoad/power-blocks",
+    "role": ["Front-end Developer"],
+    "status": "live",
+    "technologies": ["Vue.js", "JavaScript", "HTML", "CSS"]
+  },
+  {
+    "industry": "Travel",
+    "details": "Travel planning application offering detailed itineraries for users.",
+    "role": ["Full Stack Developer"],
+    "status": "live",
+    "technologies": ["Node.js", "React", "PostgreSQL"]
+  },
+  {
+    "industry": "Restaurant / Food & Beverage",
+    "details": "Streamlined food ordering platform for restaurants, pubs, and delivery services.",
+    "role": ["Full Stack Developer"],
+    "status": "live",
+    "technologies": ["PHP", "Laravel", "MySQL", "Stripe"]
+  }
+]
