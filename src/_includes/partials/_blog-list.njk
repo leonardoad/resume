@@ -1,0 +1,14 @@
+<section>
+  <h2 class="font-header font-semibold text-lg uppercase mb-6">Latest Blog Posts</h2>
+  
+  {% if blog and blog.length > 0 %}
+    <div class="space-y-2">
+      {% for post in blog %}
+        {% set currentPost = post %}
+        {% include "partials/_blog-post.njk" %}
+      {% endfor %}
+    </div>
+  {% else %}
+    <p class="text-husky-600 dark:text-husky-400 italic">No blog posts yet.</p>
+  {% endif %}
+</section>

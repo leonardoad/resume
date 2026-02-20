@@ -1,0 +1,41 @@
+[
+    {
+        "id": "getting-started-with-nestjs",
+        "title": "Getting Started with NestJS",
+        "excerpt": "A comprehensive guide to building scalable backend applications with NestJS and TypeScript.",
+        "author": "Leonardo Andriolli Danieli",
+        "date": "2024-02-15",
+        "tags": [
+            "NestJS",
+            "Backend",
+            "TypeScript"
+        ],
+        "content": "# Getting Started with NestJS\n\nNestJS is a progressive Node.js framework for building efficient, reliable and scalable server-side applications. It uses TypeScript and is heavily inspired by Angular architecture, making it a great choice for developers familiar with Angular.\n\n## Key Features\n\n- **TypeScript Support**: Built-in TypeScript support for type-safe development\n- **Modular Architecture**: Organize your application into reusable modules\n- **Dependency Injection**: Built-in dependency injection container\n- **Middleware & Guards**: Powerful middleware and authentication guards\n\n## Installation\n\nGet started with NestJS using the CLI:\n\n```bash\nnpm install -g @nestjs/cli\nnest new my-project\n```\n\n## Your First Controller\n\nCreate a simple controller to handle HTTP requests:\n\n```typescript\nimport { Controller, Get } from '@nestjs/common';\n\n@Controller()\nexport class AppController {\n  @Get()\n  getHello(): string {\n    return 'Hello World!';\n  }\n}\n```\n\nNestJS makes building production-ready APIs straightforward and enjoyable!"
+    },
+    {
+        "id": "react-performance-optimization",
+        "title": "React Performance Optimization Techniques",
+        "excerpt": "Learn advanced techniques to optimize your React applications for better performance and user experience.",
+        "author": "Leonardo Andriolli Danieli",
+        "date": "2024-01-28",
+        "tags": [
+            "React",
+            "Performance",
+            "Frontend"
+        ],
+        "content": "# React Performance Optimization Techniques\n\nPerformance optimization is crucial for modern web applications. In this post, we'll explore various techniques to make your React apps faster and more efficient.\n\n## Memoization with React.memo\n\nPrevent unnecessary re-renders by memoizing components:\n\n```javascript\nconst MyComponent = React.memo(({ name }) => {\n  return <div>Hello, {name}!</div>;\n});\n```\n\n## Code Splitting with Dynamic Imports\n\nLoad components only when needed:\n\n```javascript\nconst HeavyComponent = React.lazy(() => import('./HeavyComponent'));\n```\n\n## useMemo and useCallback\n\nOptimize expensive computations:\n\n```javascript\nconst memoizedValue = useMemo(() => computeExpensiveValue(a, b), [a, b]);\nconst memoizedCallback = useCallback(() => {\n  doSomething(a, b);\n}, [a, b]);\n```\n\n## Virtual Lists\n\nFor long lists, render only visible items using libraries like `react-window` or `react-virtualized`.\n\nThese techniques combined will significantly improve your React application's performance!"
+    },
+    {
+        "id": "microservices-architecture-patterns",
+        "title": "Microservices Architecture Patterns",
+        "excerpt": "Understanding key patterns and best practices for building scalable microservices systems.",
+        "author": "Leonardo Andriolli Danieli",
+        "date": "2024-01-10",
+        "tags": [
+            "Architecture",
+            "Microservices",
+            "Backend"
+        ],
+        "content": "# Microservices Architecture Patterns\n\nMicroservices architecture has become increasingly popular for building large-scale distributed applications. Let's explore essential patterns for success.\n\n## Service Discovery\n\nServices need to discover and communicate with each other dynamically:\n\n- **Client-side discovery**: Client queries a service registry\n- **Server-side discovery**: Using a load balancer or API gateway\n\n## API Gateway Pattern\n\nProvide a single entry point for your microservices:\n\n```\nClient → API Gateway → Microservices\n```\n\n## Circuit Breaker Pattern\n\nPrevent cascading failures with circuit breakers:\n\n```javascript\nif (failureCount > threshold) {\n  state = 'OPEN'; // Fail fast\n} else if (timeout elapsed) {\n  state = 'HALF_OPEN'; // Try recovery\n}\n```\n\n## Event-Driven Communication\n\nUse message brokers (RabbitMQ, Kafka) for asynchronous communication:\n\n```javascript\n// Service A publishes an event\nbroker.publish('user.created', userData);\n\n// Service B subscribes to the event\nbroker.subscribe('user.created', handleUserCreation);\n```\n\n## Data Management\n\nEach microservice should own its own database to ensure loose coupling and independence.\n\nMastering these patterns ensures your microservices architecture scales effectively!"
+    }
+]
