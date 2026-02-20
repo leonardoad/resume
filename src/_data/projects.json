@@ -16,11 +16,20 @@
     "technologies": ["Vue.js", "JavaScript", "HTML", "CSS"]
   },
   {
+    "industry": "Coding Experiment",
+    "details": "Full-stack simulation with floor logic, UI feedback, and a visual shaft that animates as the elevator moves. Interactive web experiment showcasing dynamic content manipulation with JavaScript.",
+    "link": "https://codepen.io/leonardoad/pen/wBMbJZj",
+    "role": ["Full Stack Developer"],
+    "status": "live",
+    "technologies": ["JavaScript", "HTML", "CSS"]
+  },
+  {
     "industry": "Travel",
     "details": "Travel planning application offering detailed itineraries for users.",
     "role": ["Full Stack Developer"],
+    "link": "https://github.com/mikemoll/Travelappphp",
     "status": "live",
-    "technologies": ["Node.js", "React", "PostgreSQL"]
+    "technologies": ["PHP", "PostgreSQL"]
   },
   {
     "industry": "Restaurant / Food & Beverage",

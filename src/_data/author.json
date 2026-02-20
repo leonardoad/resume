@@ -249,6 +249,73 @@
         "postalCode": "",
         "addressCountry": "Canada"
       },
+      "projects": [
+        {
+          "name": "REITIUM Platform",
+          "description": "A real estate investment platform that allows users to invest in real estate properties and earn rental income.",
+          "link": "https://www.reitium.com/platform"
+        },
+        {
+          "name": "REITIUM Crowdfunding",
+          "description": "Crowdfunding marketplace showcasing private-equity real estate deals for Canadian investors.",
+          "link": "https://reitium.com/crowdfunding/"
+        },
+        {
+          "name": "REITIUM Donations",
+          "description": "Donation platform to fund affordable housing initiatives and community projects.",
+          "link": "https://reitium.com/donations-demo/"
+        },
+        {
+          "name": "REITIUM White Label",
+          "description": "White-label solution enabling partners to offer REITIUM investment products under their brand.",
+          "link": "https://reitium.com/whitelabel/"
+        },
+        {
+          "name": "REITIUM Canada (Rethink Diversify)",
+          "description": "Rethink Diversify portal — Canadian investment offerings with lower entry thresholds.",
+          "link": "https://reitium.com/reitium-ca/"
+        },
+        {
+          "name": "Full-Stack Platform Development",
+          "description": "Designed and implemented features using TypeScript, Node.js, PHP, React, and Vue.js, contributing to a platform used daily by operational and compliance teams.",
+          "link": ""
+        },
+        {
+          "name": "Scalable Backend Architecture",
+          "description": "Architected backend services and APIs that reduced investment workflow time by 60% through improved data modeling, UI flows, and system performance.",
+          "link": ""
+        },
+        {
+          "name": "Modern Front-End Component Systems",
+          "description": "Built maintainable, modular components in React and Vue, collaborating closely with product and UX to deliver intuitive, high-value user experiences.",
+          "link": ""
+        },
+        {
+          "name": "Database Management & Optimization",
+          "description": "Managed relational and NoSQL databases (PostgreSQL, MySQL, MongoDB), optimizing queries, schema design, and data integrity.",
+          "link": ""
+        },
+        {
+          "name": "Engineering Leadership & Mentorship",
+          "description": "Led code reviews, mentored developers, and helped define engineering standards and development processes within an agile environment.",
+          "link": ""
+        },
+        {
+          "name": "Cross-Functional Collaboration",
+          "description": "Worked with PM, QA, and DevOps to plan releases, estimate work, and deliver reliable, production-ready features.",
+          "link": ""
+        },
+        {
+          "name": "Third-Party Integration & Tooling",
+          "description": "Integrated services (DocuSign, Stripe) and contributed to internal tooling that improved development consistency and speed.",
+          "link": ""
+        },
+        {
+          "name": "End-to-End Problem Ownership",
+          "description": "Took ownership of complex problems from design through deployment and ongoing support, ensuring complete delivery.",
+          "link": ""
+        }
+      ],
       "isCurrent": true
     },
     {
@@ -264,6 +331,33 @@
         "postalCode": "",
         "addressCountry": "Brazil"
       },
+      "projects": [
+        {
+          "name": "Full-Stack ERP & Operational Tools",
+          "description": "Developed and maintained enterprise resource planning systems using PHP, JavaScript, PostgreSQL, and REST APIs.",
+          "link": ""
+        },
+        {
+          "name": "Modern UI Component Library",
+          "description": "Built reusable UI components with HTML, CSS, and JavaScript, improving usability and reducing training overhead for internal teams.",
+          "link": ""
+        },
+        {
+          "name": "ERP & E-Commerce Integration",
+          "description": "Integrated ERP and e-commerce platforms through SOAP and custom APIs, enhancing operational efficiency and data consistency.",
+          "link": ""
+        },
+        {
+          "name": "Agile Process Implementation",
+          "description": "Participated in agile planning, estimation, and retrospectives, contributing to continuous improvement of team processes.",
+          "link": ""
+        },
+        {
+          "name": "User Training & Support Program",
+          "description": "Provided training and support to internal users, gathering feedback to refine workflows and improve product quality.",
+          "link": ""
+        }
+      ],
       "isCurrent": false
     },
     {
@@ -279,6 +373,23 @@
         "postalCode": "",
         "addressCountry": "Brazil"
       },
+      "projects": [
+        {
+          "name": "Full-Stack Web Solutions",
+          "description": "Delivered complete web applications using PHP, HTML, CSS, and JavaScript, collaborating closely with designers and stakeholders.",
+          "link": ""
+        },
+        {
+          "name": "Iterative Development & Deployment",
+          "description": "Participated in development cycles, testing, and deployment processes, ensuring high-quality and on-time delivery.",
+          "link": ""
+        },
+        {
+          "name": "Modern Front-End Component Development",
+          "description": "Built maintainable UI components and contributed to early adoption of modern front-end patterns.",
+          "link": ""
+        }
+      ],
       "isCurrent": false
     }
   ],
