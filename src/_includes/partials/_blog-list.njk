@@ -1,8 +1,8 @@
 <section>
-  <h2 class="font-header font-semibold text-lg uppercase mb-6">Latest Blog Posts</h2>
+  <h2 class="font-header font-semibold text-2xl uppercase mb-8 tracking-tight">Latest Blog Posts</h2>
   
   {% if blog and blog.length > 0 %}
-    <div class="space-y-2">
+    <div class="grid gap-6">
       {% for post in blog %}
         {% set currentPost = post %}
         {% include "partials/_blog-post.njk" %}
