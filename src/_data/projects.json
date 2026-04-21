@@ -1,7 +1,7 @@
 [
   {
     "industry": "Open Source / Dev Tools",
-    "details": "Open-source contribution for improved task scheduling in PHP environments.",
+    "details": "Contributed to an open-source project that makes scheduling tasks in PHP simpler and more reliable. Helped developers automate their workflows without the headache.",
     "link": "https://github.com/leonardoad/php-crontab-manager",
     "role": ["Contributor"],
     "status": "open-source",
@@ -9,23 +9,23 @@
   },
   {
     "industry": "Web Game",
-    "details": "Power-Blocks: Engaging web game developed using Vue.js.",
-    "link": "https://github.com/leonardoad/power-blocks",
+    "details": "A fun, fast-paced puzzle game built with Vue.js where you strategically place blocks on a grid to clear them and rack up points. It's all about quick thinking and precision—try it out and see how high you can score!",
+    "link": "https://leonardoad.github.io/power-blocks/",
     "role": ["Front-end Developer"],
     "status": "live",
     "technologies": ["Vue.js", "JavaScript", "HTML", "CSS"]
   },
   {
-    "industry": "Coding Experiment",
-    "details": "Full-stack simulation with floor logic, UI feedback, and a visual shaft that animates as the elevator moves. Interactive web experiment showcasing dynamic content manipulation with JavaScript.",
+    "industry": "Elevator - Coding Experiment",
+    "details": "A fully functional elevator simulator that brings buildings to life. Watch as the elevator responds intelligently to floor requests, animates smoothly through the shaft, and provides real-time feedback. A hands-on demo of complex state management with JavaScript.",
     "link": "https://codepen.io/leonardoad/pen/wBMbJZj",
     "role": ["Full Stack Developer"],
     "status": "live",
     "technologies": ["JavaScript", "HTML", "CSS"]
   },
   {
-    "industry": "Travel",
-    "details": "Travel planning application offering detailed itineraries for users.",
+    "industry": "Travel planning tool",
+    "details": "A comprehensive travel planning tool that helps users craft the perfect itinerary. Build day-by-day plans, organize activities, and get recommendations to make every trip unforgettable.",
     "role": ["Full Stack Developer"],
     "link": "https://github.com/mikemoll/Travelappphp",
     "status": "live",
@@ -33,9 +33,9 @@
   },
   {
     "industry": "Restaurant / Food & Beverage",
-    "details": "Streamlined food ordering platform for restaurants, pubs, and delivery services.",
+    "details": "Built a modern food ordering platform that makes it effortless for customers to browse menus, place orders, and track deliveries. Integrated secure payment processing and designed for restaurants, pubs, and delivery partners to scale their operations.",
     "role": ["Full Stack Developer"],
-    "status": "live",
+    "status": "offline",
     "technologies": ["PHP", "Laravel", "MySQL", "Stripe"]
   }
 ]
