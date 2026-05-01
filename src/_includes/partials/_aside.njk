@@ -25,5 +25,18 @@
           </svg></span><span class="font-bold py-1 px-3 text-lg">{{ author.location }}</span></div>
     </div>
     {% include "partials/_connect.njk" %}
+    {% if blog and blog.length > 0 %}
+    <div class="mt-4">
+      <h3 class="font-bold text-lg mb-4">Latest Posts</h3>
+      <ul class="space-y-3">
+        {%- for post in blog | reverse %}
+        <li>
+          <a href="/blog/{{ post.id }}/" class="text-lead hover:underline font-medium">{{ post.title }}</a>
+          <p class="text-sm text-husky-600 dark:text-husky-400 mt-1">{{ post.date }}</p>
+        </li>
+        {%- endfor %}
+      </ul>
+    </div>
+  {% endif %}
   </div>
 </aside>
