@@ -1,18 +1,26 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang }}">
   <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MBNP1X05K3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'G-MBNP1X05K3');
+    </script>
     <meta charset="UTF-8">
     <title>{{ site.title or title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta content="{{ keywords }}" name="keywords">
     <meta content="{{ description }}" name="description">
-
     <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/images/favicons/apple-touch-icon.png' }}">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/images/favicons/favicon-32x32.png' }}">
     <link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/images/favicons/favicon-16x16.png' }}">
     <link rel="manifest" href="/site.webmanifest">
-
     <link rel="canonical" href="{{ site.canonical }}">
     <meta property="og:locale" content="{{ site.locale }}">
     <meta property="og:type" content="website">
@@ -28,7 +36,8 @@
     <meta content="index,follow" name="robots">
     <link rel="stylesheet" href="{{ '/assets/css/styles.css' | url }}">
   </head>
-  <body class="antialiased text-husky-950 bg-husky-50 dark:bg-husky-950 dark:text-husky-50 leading-normal font-text text-front transition-color duration-200 ease-in-out">
+  <body class="antialiased text-husky-950 bg-husky-50 dark:bg-husky-950 dark:text-husky-50 leading-normal font-text text-front
+      transition-color duration-200 ease-in-out">
     {% include "partials/_header.njk" %}
     <div class="md:max-w-screen-sm lg:max-w-screen-xl mx-auto px-4 flex flex-wrap pt-4 my-8">
       {% include "partials/_aside.njk" %}
