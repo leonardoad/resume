@@ -10,7 +10,7 @@
       </a>
     {% endif %}
     {% for item in author.connect %}
-      <a aria-label="{{ item.name }}" href="{{ item.url }}" rel="noopener noreferrer" target="_blank" class="inline-flex w-12 h-12 justify-center items-center ml-2 rounded-full highlight hover:shadow-lg transition-shadow duration-150">
+      <a aria-label="{{ item.name }}" title="{{ item.name }}" href="{{ item.url }}" rel="noopener noreferrer" target="_blank" class="inline-flex w-12 h-12 justify-center items-center ml-2 rounded-full highlight hover:shadow-lg transition-shadow duration-150">
         {% if item.icon %}
           {{ item.icon | safe }}
         {% endif %}
